@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB2CA33E26E6B37F004B84C3 /* iOS15_ButtonsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2CA33D26E6B37F004B84C3 /* iOS15_ButtonsApp.swift */; };
+		BB2CA34026E6B37F004B84C3 /* TabViewSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2CA33F26E6B37F004B84C3 /* TabViewSetup.swift */; };
+		BB2CA34226E6B380004B84C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2CA34126E6B380004B84C3 /* Assets.xcassets */; };
+		BB2CA34526E6B380004B84C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2CA34426E6B380004B84C3 /* Preview Assets.xcassets */; };
+		BB6833E526E70EC3004B3AAF /* Button Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6833E426E70EC3004B3AAF /* Button Styles.swift */; };
+		BB6833E726E70FD9004B3AAF /* Control Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6833E626E70FD9004B3AAF /* Control Size.swift */; };
+		BB695C8E26E7187E002D8294 /* Button Roles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB695C8D26E7187E002D8294 /* Button Roles.swift */; };
+		BB695C9026E720B5002D8294 /* Location Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB695C8F26E720B5002D8294 /* Location Buttons.swift */; };
+		BB695C9226E72546002D8294 /* Border Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB695C9126E72546002D8294 /* Border Shapes.swift */; };
+		BB998F9526E8101F0018C9F9 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB998F9426E8101F0018C9F9 /* LocationManager.swift */; };
+		BB998FD126E8275D0018C9F9 /* Toggle Butttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB998FD026E8275D0018C9F9 /* Toggle Butttons.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB2CA33A26E6B37F004B84C3 /* iOS15-Buttons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS15-Buttons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2CA33D26E6B37F004B84C3 /* iOS15_ButtonsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS15_ButtonsApp.swift; sourceTree = "<group>"; };
+		BB2CA33F26E6B37F004B84C3 /* TabViewSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewSetup.swift; sourceTree = "<group>"; };
+		BB2CA34126E6B380004B84C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB2CA34426E6B380004B84C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB6833E426E70EC3004B3AAF /* Button Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button Styles.swift"; sourceTree = "<group>"; };
+		BB6833E626E70FD9004B3AAF /* Control Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Control Size.swift"; sourceTree = "<group>"; };
+		BB695C8D26E7187E002D8294 /* Button Roles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button Roles.swift"; sourceTree = "<group>"; };
+		BB695C8F26E720B5002D8294 /* Location Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location Buttons.swift"; sourceTree = "<group>"; };
+		BB695C9126E72546002D8294 /* Border Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Border Shapes.swift"; sourceTree = "<group>"; };
+		BB695C9326E72A7C002D8294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BB998F9426E8101F0018C9F9 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		BB998FD026E8275D0018C9F9 /* Toggle Butttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Toggle Butttons.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB2CA33726E6B37F004B84C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB2CA33126E6B37F004B84C3 = {
+			isa = PBXGroup;
+			children = (
+				BB2CA33C26E6B37F004B84C3 /* iOS15-Buttons */,
+				BB2CA33B26E6B37F004B84C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB2CA33B26E6B37F004B84C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB2CA33A26E6B37F004B84C3 /* iOS15-Buttons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB2CA33C26E6B37F004B84C3 /* iOS15-Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				BB695C9326E72A7C002D8294 /* Info.plist */,
+				BB2CA33D26E6B37F004B84C3 /* iOS15_ButtonsApp.swift */,
+				BB2CA33F26E6B37F004B84C3 /* TabViewSetup.swift */,
+				BB6833E426E70EC3004B3AAF /* Button Styles.swift */,
+				BB695C9126E72546002D8294 /* Border Shapes.swift */,
+				BB6833E626E70FD9004B3AAF /* Control Size.swift */,
+				BB695C8D26E7187E002D8294 /* Button Roles.swift */,
+				BB695C8F26E720B5002D8294 /* Location Buttons.swift */,
+				BB998FD026E8275D0018C9F9 /* Toggle Butttons.swift */,
+				BB998FD226E8286F0018C9F9 /* Managers */,
+				BB2CA34126E6B380004B84C3 /* Assets.xcassets */,
+				BB2CA34326E6B380004B84C3 /* Preview Content */,
+			);
+			path = "iOS15-Buttons";
+			sourceTree = "<group>";
+		};
+		BB2CA34326E6B380004B84C3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB2CA34426E6B380004B84C3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB998FD226E8286F0018C9F9 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				BB998F9426E8101F0018C9F9 /* LocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB2CA33926E6B37F004B84C3 /* iOS15-Buttons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB2CA34826E6B380004B84C3 /* Build configuration list for PBXNativeTarget "iOS15-Buttons" */;
+			buildPhases = (
+				BB2CA33626E6B37F004B84C3 /* Sources */,
+				BB2CA33726E6B37F004B84C3 /* Frameworks */,
+				BB2CA33826E6B37F004B84C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS15-Buttons";
+			productName = "iOS15-Buttons";
+			productReference = BB2CA33A26E6B37F004B84C3 /* iOS15-Buttons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB2CA33226E6B37F004B84C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					BB2CA33926E6B37F004B84C3 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = BB2CA33526E6B37F004B84C3 /* Build configuration list for PBXProject "iOS15-Buttons" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB2CA33126E6B37F004B84C3;
+			productRefGroup = BB2CA33B26E6B37F004B84C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB2CA33926E6B37F004B84C3 /* iOS15-Buttons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB2CA33826E6B37F004B84C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2CA34526E6B380004B84C3 /* Preview Assets.xcassets in Resources */,
+				BB2CA34226E6B380004B84C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB2CA33626E6B37F004B84C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2CA34026E6B37F004B84C3 /* TabViewSetup.swift in Sources */,
+				BB998FD126E8275D0018C9F9 /* Toggle Butttons.swift in Sources */,
+				BB695C9026E720B5002D8294 /* Location Buttons.swift in Sources */,
+				BB695C9226E72546002D8294 /* Border Shapes.swift in Sources */,
+				BB6833E726E70FD9004B3AAF /* Control Size.swift in Sources */,
+				BB998F9526E8101F0018C9F9 /* LocationManager.swift in Sources */,
+				BB695C8E26E7187E002D8294 /* Button Roles.swift in Sources */,
+				BB2CA33E26E6B37F004B84C3 /* iOS15_ButtonsApp.swift in Sources */,
+				BB6833E526E70EC3004B3AAF /* Button Styles.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BB2CA34626E6B380004B84C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB2CA34726E6B380004B84C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB2CA34926E6B380004B84C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS15-Buttons/Preview Content\"";
+				DEVELOPMENT_TEAM = RKV4UP49S6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS15-Buttons/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.createchsol.iOS15-Buttons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB2CA34A26E6B380004B84C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS15-Buttons/Preview Content\"";
+				DEVELOPMENT_TEAM = RKV4UP49S6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS15-Buttons/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.createchsol.iOS15-Buttons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB2CA33526E6B37F004B84C3 /* Build configuration list for PBXProject "iOS15-Buttons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2CA34626E6B380004B84C3 /* Debug */,
+				BB2CA34726E6B380004B84C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB2CA34826E6B380004B84C3 /* Build configuration list for PBXNativeTarget "iOS15-Buttons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2CA34926E6B380004B84C3 /* Debug */,
+				BB2CA34A26E6B380004B84C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB2CA33226E6B37F004B84C3 /* Project object */;
+}

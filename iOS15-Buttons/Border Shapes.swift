@@ -27,6 +27,7 @@ struct Border_Shapes: View {
                 Text("Rounded Rectangle BorderShape")
             }
             .buttonBorderShape(.roundedRectangle)
+            .buttonStyle(.bordered)
             // Rounded Rectangle(radius) BorderShape
             Button {
                 
